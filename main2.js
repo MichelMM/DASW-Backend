@@ -191,7 +191,7 @@ formRemove.addEventListener("submit", function (event) {
 function buscarFuncion(event) {
     let i = (event.path.length == 10) ? event.path[0].getAttribute("name") : event.path[1].getAttribute("name");
     localStorage.setItem("buscar", JSON.stringify(newalumnos[i]));
-    window.location.href = "/detalles.html";
+    window.location.href = "https://michelmm.github.io/DASW-Backend/detalles.html";
 }
 
 
