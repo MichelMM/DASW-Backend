@@ -77,7 +77,7 @@ function loginDatos(datos){
             alert(xhr.status + ': ' + xhr.statusText + '\n Error, correo o contraseña invalidos');
         } else {
             localStorage.token = JSON.parse(xhr.response).token;
-            window.location.href = "/consultas.html";
+            window.location.href = "./consultas.html";
         }
     }; 
 }
